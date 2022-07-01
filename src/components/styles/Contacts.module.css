@@ -1,0 +1,47 @@
+.title
+{
+    font-size:50px;
+    font-weight:600;
+    font-family:'Amaranth', sans-serif;
+    text-align: center;
+}
+.contactContainer
+{
+    height: 100vh;
+    padding-top: 200px;
+}
+.para
+{
+    font-size: 25px;
+    font-family:'Poiret One', cursive;
+    font-weight: 900;
+    padding: 10px 100px 20px 100px;
+    text-align: center;
+}
+.iconContainer
+{
+    width: 50%;
+   padding-top: 50px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: space-evenly;
+}
+.heading
+{
+    font-family: 'Monoton', cursive;
+    font-size: 35px;
+    text-align: center;
+    color: #1F4690;
+    font-weight: 500;
+}
+@media all and (max-width:500px) and (min-width:200px)
+{
+    .para
+    {
+        font-size: 16px;
+        padding: 10px 50px 20px 50px;
+    }  
+    
+}

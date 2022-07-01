@@ -1,0 +1,111 @@
+.HomeContainer
+{
+    width:99%; 
+    height:100vh;
+    display:flex;
+    justify-content:space-around;
+    padding-top:100px;
+    background-size:cover;
+}
+.ContentContainer
+{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.Hello
+{
+    font-size:50px;
+    font-family : 'Amaranth', sans-serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+   
+}
+.Name
+{
+    font-weight:bold;
+    color:#293462;
+    font-size:55px;
+}
+.sliderData
+{
+    font-size: 50px;
+}
+
+.Image
+{
+    width:400px;
+    height:430px;
+   
+    border-radius:50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.title
+{
+    height: 70px;
+    overflow: hidden;
+   
+    align-items: center;
+}
+.titleWrapper
+{
+    height: 100%;
+    
+    animation: move 5s ease-in-out infinite alternate;
+}
+@keyframes move {
+    25%{
+        transform: translateY(-90px);
+    }
+    50%{
+        transform: translateY(-180px);
+    }
+    75%{
+        transform: translateY(-270px);
+    }
+    100%{
+        transform: translateY(-0px);
+    }
+}
+@media all and (max-width:500px) and (min-width:200px)
+{
+    .Name
+    {
+        font-weight:bold;
+        color:#293462;
+        font-size:30px;
+    }
+    .Image
+    {
+        width:250px; 
+        height: 250px;
+        text-align: center;
+        margin-top: 40%;
+    }
+    .Hello
+    {
+        font-size: 25px;
+    }
+    .sliderData
+    {
+        font-size: 23px;
+    }
+    .title
+    {
+        height: 25px;
+    }
+    @keyframes move {
+        25%{
+            transform: translateY(-26px);
+        }
+        50%{
+            transform: translateY(-52px);
+        }
+        75%{
+            transform: translateY(-78px);
+        }
+        100%{
+            transform: translateY(-104px);
+        }
+    }
+}
