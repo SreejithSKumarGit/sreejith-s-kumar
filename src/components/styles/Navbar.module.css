@@ -32,14 +32,15 @@
 {
     .NavContainer
     {
-        justify-content:left;
+        justify-content:center;
     }
     .Links
     {
-        font-size: 16px;  
+        font-size: 14.5px;
     }
     .NavLinksContainer
     {
-        gap:20px;
+        gap:12px;
+        margin-right: 0px;
     }
 }

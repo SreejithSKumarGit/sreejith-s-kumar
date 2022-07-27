@@ -88,24 +88,25 @@
     }
     .sliderData
     {
-        font-size: 23px;
+        font-size: 19px;
+        font-weight: 500;
     }
     .title
     {
-        height: 25px;
+        height: 20px;
     }
     @keyframes move {
         25%{
-            transform: translateY(-26px);
+            transform: translateY(-22px);
         }
         50%{
-            transform: translateY(-52px);
+            transform: translateY(-44px);
         }
         75%{
-            transform: translateY(-78px);
+            transform: translateY(-66px);
         }
         100%{
-            transform: translateY(-104px);
+            transform: translateY(-88px);
         }
     }
 }

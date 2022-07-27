@@ -8,7 +8,7 @@
 .contactContainer
 {
     height: 100vh;
-    padding-top: 200px;
+    padding-top: 100px;
 }
 .para
 {
@@ -20,12 +20,12 @@
 }
 .iconContainer
 {
-    width: 50%;
+    width: 80%;
    padding-top: 50px;
     margin: auto;
     display: flex;
     flex-direction: row;
-    gap: 25px;
+    gap: 50px;
     justify-content: space-evenly;
 }
 .heading
@@ -36,12 +36,50 @@
     color: #1F4690;
     font-weight: 500;
 }
+.toggleBtn
+{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.toggleText
+{
+   
+    font-size: 16px;
+    font-weight: 600;
+   
+}
 @media all and (max-width:500px) and (min-width:200px)
 {
     .para
     {
         font-size: 16px;
-        padding: 10px 50px 20px 50px;
+        padding: 10px 30px 10px 30px;
     }  
+    .heading
+    {
+        font-size: 22px;  
+    }
+    .toggleBtn
+    {
+       flex-direction: 
+        
+        
+    }
+    .toggleText
+    {
+        
+        font-size: 12px; 
+    
+    }
+    .iconContainer
+    {
+        width: 100%;
+    }
+    .iconContainer img
+    {
+        width: 30px;
+    }
     
 }

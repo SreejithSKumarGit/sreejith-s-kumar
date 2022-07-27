@@ -1,6 +1,6 @@
 import React from "react";
 import HomeStyles from "./styles/Home.module.css";
-import Sreejith from "../pics/Sreejith (2).jpg";
+import Sreejith from "../pics/Sreejith new pic.jpg";
 import {Button} from "@chakra-ui/react";
 
 
@@ -28,7 +28,7 @@ function Home()
                             <h1 className={HomeStyles.sliderData}>Front End Developer</h1>
                         </div>
                     </div>
-                    <Button width="150px" size="lg" bg="#FF1700" mt="10px"><a style={{textDecoration:"none", color:"whitesmoke"}} href="https://drive.google.com/file/d/1jmq8K1caktHCckGHsUkEsBUdjOOlbstw/view?usp=sharing">Resume</a></Button>
+                    <Button width="150px" size="lg" bg="#FF1700" mt="10px"><a style={{textDecoration:"none", color:"whitesmoke"}} href="https://drive.google.com/file/d/1jmq8K1caktHCckGHsUkEsBUdjOOlbstw/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a></Button>
             </div>
             <div className={HomeStyles.ImageContainer}>
                 <img className={HomeStyles.Image} src={Sreejith} alt="Sreejith"  />
