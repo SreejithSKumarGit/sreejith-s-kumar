@@ -7,29 +7,24 @@
 }
 .projectContainer
 {
-    height: 100vh;
+    height: 300vh;
     padding-top: 80px;
 }
 .projectsContainer
 {
-    width:100%;
-    height: 75vh;
-    text-align:center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:80px;
+    padding: 20px 80px;
     
-    padding:10px;
-    display:flex;
-    flex-direction:row;
-    gap:20px;
-   
 }
 .projectsContainer > div
 {
     font-family:'Amaranth', sans-serif;
     text-align: justify;
-    width: 40%;
-    margin: auto;
+   
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    height: 100%;
+    height: 95%;
     border-radius: 8px;
     padding: 5px;
 }
@@ -72,23 +67,25 @@
     .projectsContainer
     {
         
-        height: 130vh;
-        flex-direction:column;
-        justify-content: center;
+        grid-template-columns: repeat(1,1fr);
+        gap:25px;
+        padding: 25px;
     }
     
     .projectContainer
     {
-        height: 150vh;
+        
+        height: 420vh;
         padding-top: 70px
     }
     .projectsContainer > div
     {
         width: 90%;
+        margin: auto;
     }
     .projectsContainer > div >img
     {
-        height: 35%;
+        height: 45%;
     }
 
     .ProjectContent
