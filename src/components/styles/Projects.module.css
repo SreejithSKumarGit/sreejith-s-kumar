@@ -62,7 +62,7 @@
         padding: 40px 10px 10px 10px;
         justify-content: space-between;
         font-size: 11px;
-        margin-top: -10px;
+        margin-top: -20px;
     }
     .projectsContainer
     {
@@ -75,13 +75,14 @@
     .projectContainer
     {
         
-        height: 420vh;
+        height: 450vh;
         padding-top: 70px
     }
     .projectsContainer > div
     {
-        width: 90%;
+        width: 95%;
         margin: auto;
+        padding-bottom: 25px;
     }
     .projectsContainer > div >img
     {

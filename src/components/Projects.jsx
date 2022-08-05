@@ -5,6 +5,7 @@ import sephora from "../pics/Sephora Clone.png"
 import  ProjectStyle from "./styles/Projects.module.css";
 import movieCredits from "../pics/Movie Credits.png";
 import translate from "../pics/Translate App.png";
+import vrbo from "../pics/Vrbo.png"
 function Projects()
 {
     const Img=styled.img`
@@ -17,15 +18,15 @@ function Projects()
         <h1 className={ProjectStyle.heading}>Projects</h1>
             <div className={ProjectStyle.projectsContainer}>
                     <div>
-                        <Img src={lumen5}/>
+                        <Img src={vrbo}/>
                         <h4 className={ProjectStyle.projectTitle}>Vrbo Clone</h4>
                         <p className={ProjectStyle.ProjectContent}>Vrbo is a website which lets you search and book the perfect place to stay for you next vacation. A collaborative project built by 4 members in 7 days. </p>
                         <h3 className={ProjectStyle.ProjectContent}> Tech-Stack: ReactJS | MongoDB | Express JS | Node JS | Chakra UI | Styled Components | </h3>
                         <div className={ProjectStyle.Btncontainer}>
-                        <a href="https://github.com/SreejithSKumarGit/Vrbo"target="_blank" rel="noreferrer"><button className={ProjectStyle.Repobtn}>Repo Link</button></a> 
-                        <a href="https://sreejithskumargit.github.io/Lumen5-Video-Maker-Clone/" target="_blank" rel="noreferrer"><button className={ProjectStyle.Repobtn}>Live website</button></a> 
+                        <a href="https://github.com/SreejithSKumarGit/Vrbo-clone"target="_blank" rel="noreferrer"><button className={ProjectStyle.Repobtn}>Repo Link</button></a> 
+                        <a href="https://clone-of-vrbo.herokuapp.com/" target="_blank" rel="noreferrer"><button className={ProjectStyle.Repobtn}>Live website</button></a> 
                         </div>
-                    </div>
+                    </div> 
                     <div >
                         <Img src={sephora}/>
                         <h4 className={ProjectStyle.projectTitle}>Sephora Clone</h4>
